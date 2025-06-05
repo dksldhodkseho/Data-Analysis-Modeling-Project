@@ -55,6 +55,7 @@ def predict(test_df):
         return active_model.predict(x)
     else:
         return static_model.predict(x)
+```
 
 1. 입력 데이터 전처리 및 정규화  
 2. 정적/동적 분류 → 세부 행동 분류  
